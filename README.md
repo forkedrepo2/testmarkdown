@@ -7,13 +7,6 @@ You can install this package via composer using:
 composer require spatie/laravel-newsletter
 ```
 
-The package will automatically register itself.
-
-To publish the config file to `config/newsletter.php` run:
-
-```bash
-php artisan vendor:publish --provider="Spatie\Newsletter\NewsletterServiceProvider"
-```
 
 This will publish a file `newsletter.php` in your config directory with the following contents:
 ```php
